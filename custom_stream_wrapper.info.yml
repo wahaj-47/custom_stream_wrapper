@@ -1,0 +1,6 @@
+name: "Custom Stream Wrapper"
+description: "Adds local stream wrappers for symlinked files: symleg:// mapped to /sites/all/files/, symlic:// mapped to /sites/default/files"
+package: Custom
+
+type: module
+core_version_requirement: ^9 || ^10

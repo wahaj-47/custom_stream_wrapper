@@ -1,0 +1,9 @@
+services:
+  stream_wrapper.symleg:
+    class: 'Drupal\custom_stream_wrapper\StreamWrapper\SymlegStream'
+    tags:
+      - { name: "stream_wrapper", scheme: "symleg" }
+  stream_wrapper.symlic:
+    class: 'Drupal\custom_stream_wrapper\StreamWrapper\SymlicStream'
+    tags:
+      - { name: "stream_wrapper", scheme: "symlic" }
